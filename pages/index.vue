@@ -1,5 +1,8 @@
 <template>
-  <div>This is Index Page</div>
+  <div>
+    This is Index Page
+    <p>Working on it</p>
+  </div>
 </template>
 
 <script>
