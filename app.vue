@@ -16,16 +16,16 @@ export default {
         content: "my website description",
       },
     ],
-    link: [
-      {
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css",
-      },
-      {
-        rel: "javascript",
-        href: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js",
-      },
-    ],
+    // link: [
+    //   {
+    //     rel: "stylesheet",
+    //     href: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css",
+    //   },
+    //   {
+    //     rel: "javascript",
+    //     href: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js",
+    //   },
+    // ],
   },
 };
 </script>
