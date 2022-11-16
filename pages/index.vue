@@ -5,9 +5,9 @@
       <div class="col">
         <nav class="navbar navbar-expand-lg navbar-light bg-light topNavbar">
           <div class="container-fluid">
-            <a class="nav-link" aria-current="page" href="index.html"
-              ><img src="images/logo.svg" alt="" class="logo-img"
-            /></a>
+            <a class="nav-link" aria-current="page" href="index.html">
+              <img src="./images/logo.svg" alt="" class="logo-img" />
+            </a>
             <button
               class="navbar-toggler"
               type="button"
@@ -66,12 +66,13 @@
               href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
               class="btn cutomizeBtn"
               target="_blank"
-              >Customize Now <img src="images/arrow-right.svg" />
+              >Customize Now
+              <!-- <img src="images/arrow-right.svg" /> -->
             </a>
           </div>
           <div class="col-md-5 col-sm-12">
             <div class="top-img ShowFirst">
-              <img src="images/dittols-dolls-banner-img.png" alt="img" />
+              <!-- <img src="images/dittols-dolls-banner-img.png" alt="img" /> -->
             </div>
           </div>
           <div class="col-1"></div>
@@ -227,7 +228,7 @@
       <div class="col-1"></div>
     </div>
 
-    <div class="row ourProducts" id="OurProducts">
+    <!-- <div class="row ourProducts" id="OurProducts">
       <div class="col">
         <div class="row">
           <div class="col">
@@ -365,7 +366,7 @@
           <div class="col-1"></div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="row chooseBest">
       <div class="col-1"></div>
       <div class="col-md-5 col-sm-12">
@@ -376,7 +377,7 @@
           class="btn cutomizeBtn desktopBtn"
           target="_blank"
           >Customize Now
-          <img src="images/arrow-right.svg" alt="img" />
+          <!-- <img src="images/arrow-right.svg" alt="img" /> -->
         </a>
       </div>
       <div class="col-md-5 col-sm-12">
@@ -385,7 +386,7 @@
             class="list-group-item d-flex justify-content-between align-items-start"
           >
             <div class="iconImg">
-              <img src="images/highdefinationnew.svg" alt="img" />
+              <!-- <img src="images/highdefinationnew.svg" alt="img" /> -->
             </div>
             <div class="ms-2 me-auto">
               <h5>High Defination 3D Miniature</h5>
@@ -399,11 +400,11 @@
             class="list-group-item d-flex justify-content-between align-items-start"
           >
             <div class="iconImg">
-              <img
+              <!-- <img
                 src="images/accuracynew.svg"
                 class="accuracy iconImgchngsize"
                 alt="img"
-              />
+              /> -->
             </div>
             <div class="ms-2 me-auto">
               <h5>99% Accuracy</h5>
@@ -417,7 +418,7 @@
             class="list-group-item d-flex justify-content-between align-items-start"
           >
             <div class="iconImg">
-              <img src="images/threedfilenew.svg" alt="img" />
+              <!-- <img src="images/threedfilenew.svg" alt="img" /> -->
             </div>
             <div class="ms-2 me-auto">
               <h5>unlimited Revisions in 3D file</h5>
@@ -431,11 +432,11 @@
             class="list-group-item d-flex justify-content-between align-items-start"
           >
             <div class="iconImg">
-              <img
+              <!-- <img
                 src="images/customizationnew.svg"
                 class="iconImgchngsize"
                 alt="img"
-              />
+              /> -->
             </div>
             <div class="ms-2 me-auto">
               <h5>Customization available</h5>
@@ -451,7 +452,8 @@
             href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
             class="btn cutomizeBtn mobileBtn"
             target="_blank"
-            >Customize Now <img src="images/arrow-right.svg" alt="img" />
+            >Customize Now
+            <!-- <img src="images/arrow-right.svg" alt="img" /> -->
           </a>
         </div>
       </div>
@@ -572,8 +574,9 @@
               href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
               class="btn cutomizeBtn"
               target="_blank"
-              >Enquiry Now <img src="images/arrow-right.svg" alt="img"
-            /></a>
+              >Enquiry Now
+              <!-- <img src="images/arrow-right.svg" alt="img"            /> -->
+            </a>
           </div>
           <div
             class="col-md-6 col-sm-12 ShowFirst embed-responsive embed-responsive-16by9 videoWidht"
@@ -621,7 +624,8 @@
               href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
               class="btn cutomizeBtn"
               target="_blank"
-              >Enquiry Now <img src="images/arrow-right.svg" alt="img" />
+              >Enquiry Now
+              <!-- <img src="images/arrow-right.svg" alt="img" /> -->
             </a>
           </div>
         </div>
@@ -901,9 +905,9 @@
         </div>
         <div class="row">
           <div class="col arrowSection">
-            <a href="#contactus"
-              ><img src="images/arrow-down.svg" alt="img" class="downArrow"
-            /></a>
+            <a href="#contactus">
+              <!-- <img src="images/arrow-down.svg" alt="img" class="downArrow"            /> -->
+            </a>
           </div>
         </div>
       </div>
@@ -990,9 +994,9 @@
         <div class="row fBlock">
           <div class="col-1"></div>
           <div class="col-md-4">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              ><img src="images/footerlogo.svg" alt="" class="footer-logo"
-            /></a>
+            <a class="nav-link active" aria-current="page" href="index.html">
+              <!-- <img src="images/footerlogo.svg" alt="" class="footer-logo"            /> -->
+            </a>
           </div>
           <div class="col-md-2">
             <ul>
@@ -1025,18 +1029,21 @@
                 <a
                   href="https://www.facebook.com/100744336155727"
                   target="_blank"
-                  ><img
+                >
+                  <!-- <img
                     src="images/facebookimg.svg"
                     alt="facebook logo"
                     width="30px"
-                /></a>
+                /> -->
+                </a>
               </li>
               <li>
                 <a
                   href="https://www.instagram.com/invites/contact/?i=16z9s2aciv8r3&utm_content=pmrusw3"
                   target="_blank"
-                  ><img src="images/insta.svg" alt="insta logo" width="28px"
-                /></a>
+                >
+                  <!-- <img src="images/insta.svg" alt="insta logo" width="28px"                /> -->
+                </a>
               </li>
               <!-- <li>
                 <a
@@ -1052,8 +1059,9 @@
                 <a
                   href="https://youtube.com/channel/UCrZR1kEWR5xDzbejOd4i4DA"
                   target="_blank"
-                  ><img src="images/youtube.svg" alt="youtub logo" width="28px"
-                /></a>
+                >
+                  <!-- <img src="images/youtube.svg" alt="youtub logo" width="28px"                /> -->
+                </a>
               </li>
             </ul>
           </div>
