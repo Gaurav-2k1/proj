@@ -18,7 +18,10 @@
         </div>
         <div class="col-md-5 col-sm-12">
           <div class="top-img ShowFirst">
-            <!-- <img src="images/dittols-dolls-banner-img.png" alt="img" /> -->
+            <img
+              src="../assets/images/dittols-dolls-banner-img.png"
+              alt="img"
+            />
           </div>
         </div>
         <div class="col-1"></div>
