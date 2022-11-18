@@ -40,7 +40,7 @@ export default {
         content: "my website description",
       },
     ],
-    link: [{ rel: "icon", type: "image", href: "@/assets/images/logo.svg" }],
+    // link: [{ rel: "icon", type: "image", href: "@/assets/images/logo.svg" }],
   },
 };
 </script>
