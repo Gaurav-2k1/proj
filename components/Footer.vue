@@ -5,7 +5,11 @@
         <div class="col-1"></div>
         <div class="col-md-4">
           <a class="nav-link active" aria-current="page" href="index.html">
-            <!-- <img src="images/footerlogo.svg" alt="" class="footer-logo"            /> -->
+            <img
+              src="../assets/images/footer/footerlogo.svg"
+              alt=""
+              class="footer-logo"
+            />
           </a>
         </div>
         <div class="col-md-2">
@@ -89,13 +93,13 @@
         <div class="col">
           <div class="copyRight">
             <p>
-              <a
+              <!-- <a
                 href="/cdn-cgi/l/email-protection"
                 class="__cf_email__"
                 data-cfemail="10537f606962797778645022202222"
                 >[email&#160;protected]</a
-              >
-              DittoDolls Pvt. Ltd. All right Reserved.
+              > -->
+              Copyright@2022 DittoDolls Pvt. Ltd. All right Reserved.
             </p>
           </div>
         </div>
