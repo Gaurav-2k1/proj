@@ -40,11 +40,11 @@
                 href="https://www.facebook.com/100744336155727"
                 target="_blank"
               >
-                <!-- <img
-                    src="images/facebookimg.svg"
-                    alt="facebook logo"
-                    width="30px"
-                /> -->
+                <img
+                  src="../assets/images/footer/facebookimg.svg"
+                  alt="facebook logo"
+                  width="30px"
+                />
               </a>
             </li>
             <li>
@@ -52,7 +52,11 @@
                 href="https://www.instagram.com/invites/contact/?i=16z9s2aciv8r3&utm_content=pmrusw3"
                 target="_blank"
               >
-                <!-- <img src="images/insta.svg" alt="insta logo" width="28px"                /> -->
+                <img
+                  src="../assets/images/footer/insta.svg"
+                  alt="insta logo"
+                  width="28px"
+                />
               </a>
             </li>
             <!-- <li>
@@ -70,7 +74,11 @@
                 href="https://youtube.com/channel/UCrZR1kEWR5xDzbejOd4i4DA"
                 target="_blank"
               >
-                <!-- <img src="images/youtube.svg" alt="youtub logo" width="28px"                /> -->
+                <img
+                  src="../assets/images/footer/youtube.svg"
+                  alt="youtub logo"
+                  width="28px"
+                />
               </a>
             </li>
           </ul>
