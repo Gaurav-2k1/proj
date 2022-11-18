@@ -1,9 +1,9 @@
 <template>
-  <div class="row ourProductss" id="OurProductss">
+  <div class="row ourProducts" id="OurProducts">
     <div class="col">
       <div class="row">
         <div class="col">
-          <h3>OUR PRODUCTsS</h3>
+          <h3>OUR PRODUCTS</h3>
         </div>
       </div>
       <div class="row">
@@ -144,4 +144,4 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style></style>
