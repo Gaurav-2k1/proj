@@ -30,8 +30,7 @@
             href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
             class="btn cutomizeBtn"
             target="_blank"
-            >Enquiry Now
-            <!-- <img src="images/arrow-right.svg" alt="img" /> -->
+            >Enquiry Now <img src="../assets/images/arrow-right.svg" />
           </a>
         </div>
       </div>
