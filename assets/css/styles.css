@@ -874,6 +874,7 @@ button:focus:not {
   letter-spacing: 2px;
   color: #fdf9ea;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .minitureworld p b {
