@@ -7,6 +7,7 @@
     </div>
     <Banner />
     <Row />
+    <Comparison />
     <Products />
     <ChooseTheBest />
     <HowItWorks />
