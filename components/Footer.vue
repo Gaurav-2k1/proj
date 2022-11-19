@@ -4,7 +4,7 @@
       <div class="row fBlock">
         <div class="col-1"></div>
         <div class="col-md-4">
-          <a class="nav-link active" aria-current="page" href="index.html">
+          <a class="nav-link active" aria-current="page" href="/">
             <img
               src="../assets/images/footer/footerlogo.svg"
               alt=""

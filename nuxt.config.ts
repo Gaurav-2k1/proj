@@ -9,7 +9,12 @@ export default defineNuxtConfig({
           rel: "stylesheet",
           href: "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css",
         },
-        { rel: "icon", type: "svg+xml", href: "@/assets/images/logo.svg" },
+        // { rel: "icon", type: "svg+xml", href: "@/assets/images/logo.svg" },
+        {
+          rel: "shortcut icon",
+          href: "/assets/images/logo.svg",
+          type: "image/x-icon",
+        },
       ],
       script: [
         {
