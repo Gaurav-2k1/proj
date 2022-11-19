@@ -172,24 +172,24 @@ img {
 }
 
 @font-face {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../css/fonts/Roboto-Regular.ttf");
+  src: url("../css/fonts/Roboto.ttf");
 }
 
 @font-face {
-  font-family: "Roboto-Medium";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../css/fonts/Roboto-Medium.ttf");
+  src: url("../css/fonts/Roboto.ttf");
 }
 
 @font-face {
-  font-family: "Roboto-light";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../css/fonts/Roboto-Light.ttf");
+  src: url("../css/fonts/Roboto.ttf");
 }
 
 @font-face {
@@ -200,10 +200,10 @@ img {
 }
 
 @font-face {
-  font-family: "Roboto-thin";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../css/fonts/Roboto-Thin.ttf");
+  src: url("../css/fonts/Roboto.ttf");
 } */
 
 /* @font-face {
@@ -228,7 +228,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto-regular" !important;
+  font-family: "Roboto" !important;
   line-height: 20px;
   background: #ffffff;
 }
@@ -257,7 +257,7 @@ body {
 
 .nav-link {
   margin-right: 25px;
-  font-family: "Roboto-regular" !important;
+  font-family: "Roboto" !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -289,7 +289,7 @@ body {
 }
 
 .CaptureMoment h6 {
-  font-family: "Roboto-thin";
+  font-family: "Roboto";
   font-style: normal;
   font-size: 48px;
   line-height: 138.99%;
@@ -301,13 +301,13 @@ body {
 }
 
 .CaptureMoment h6 b {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
 }
 
 .cutomizeBtn {
   background: #d3a466 !important;
   color: #fff !important;
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 25px !important;
@@ -323,7 +323,7 @@ body {
 }
 
 .nav-pills {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -365,7 +365,7 @@ body {
 }
 
 .miniatureIntro h3 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -389,7 +389,7 @@ body {
 
 .miniatureBlurryface h4,
 .pinkBg h4 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -403,9 +403,9 @@ body {
 
 .miniatureBlurryface span,
 .pinkBg span {
-  font-family: "Roboto-Medium";
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   line-height: 138.99%;
   /* identical to box height, or 28px */
@@ -415,7 +415,7 @@ body {
 
 .miniatureBlurryface p,
 .pinkBg p {
-  font-family: "Roboto-light";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -441,7 +441,7 @@ body {
 
 .darkBtn {
   width: 98%;
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400 !important;
   font-size: 20px !important;
@@ -475,7 +475,7 @@ body {
 }
 
 .ourProducts h3 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -535,7 +535,7 @@ body {
 }
 
 .ourProducts .card .card-title {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -549,7 +549,7 @@ body {
 .cutomizecardBtn {
   background-color: #d3a466 !important;
   color: #fff !important;
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -559,6 +559,7 @@ body {
   border-radius: 6px !important;
   padding: 10px 40px !important;
   transition: background-color 1s;
+  box-shadow: 0px 0px 0px 3px #d3a4664d;
 }
 
 .cutomizecardBtn:active,
@@ -578,7 +579,7 @@ body {
 }
 
 .chooseBest h3 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -589,7 +590,7 @@ body {
 }
 
 .chooseBest p {
-  font-family: "Roboto-light";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -602,7 +603,7 @@ body {
 .chooseBest .cutomizeBtn,
 .compareSection .cutomizeBtn {
   margin-left: 0;
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal !important;
   font-weight: 500 !important;
   font-size: 22px !important;
@@ -625,7 +626,7 @@ body {
 }
 
 .chooseBest .list-group-item h5 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -637,7 +638,7 @@ body {
 }
 
 .chooseBest .list-group-item p {
-  font-family: "Roboto-light";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -673,7 +674,7 @@ body {
 .three-d-printed h3,
 .three-d-avatar h3,
 .innerPage h3 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -686,7 +687,7 @@ body {
 }
 
 .howitwork span {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -704,7 +705,7 @@ body {
 }
 
 .howitwork p {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -717,7 +718,7 @@ body {
 }
 
 .faq h3 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -730,7 +731,7 @@ body {
 }
 
 .faq p {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -795,7 +796,7 @@ button:focus:not {
 }
 
 .contactus h3 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -808,7 +809,7 @@ button:focus:not {
 }
 
 .contactus p {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -831,7 +832,7 @@ button:focus:not {
 
 .contactus form label {
   color: #fdf9ea;
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
 }
 
 .contactus form input,
@@ -848,7 +849,7 @@ button:focus:not {
   border-radius: 4px !important;
   color: #fdf9ea !important;
   margin: 15px 0;
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400 !important;
   font-size: 16px !important;
@@ -864,7 +865,7 @@ button:focus:not {
 }
 
 .minitureworld p {
-  font-family: "Roboto-thin";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 200;
   font-size: 24px;
@@ -878,7 +879,7 @@ button:focus:not {
 }
 
 .minitureworld p b {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
 }
 
 .mainFooter {
@@ -888,7 +889,7 @@ button:focus:not {
 
 .mainFooter ul li a,
 .mainFooter h6 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -919,7 +920,7 @@ button:focus:not {
 }
 
 .copyRight p {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -938,7 +939,7 @@ button:focus:not {
 } */
 
 .socialIconBlk h6 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -973,7 +974,7 @@ ul.socialIcon li a {
 }
 
 .videoBlk h3 {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -988,7 +989,7 @@ ul.socialIcon li a {
 .videoBlk p,
 .three-d-printed p,
 .three-d-avatar p {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1018,7 +1019,7 @@ ul.socialIcon li a {
   text-align: left;
   margin-top: 10px;
   margin-bottom: 0 !important;
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -1045,7 +1046,7 @@ ul.socialIcon li a {
 }
 
 .innerPage p {
-  font-family: "Roboto-light";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1063,7 +1064,7 @@ ul.socialIcon li a {
 }
 
 .accordion-button {
-  font-family: "Roboto-regular";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px !important;
@@ -1074,7 +1075,7 @@ ul.socialIcon li a {
 }
 
 .accordion-body {
-  font-family: "Roboto-light";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px !important;

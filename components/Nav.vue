@@ -2,7 +2,7 @@
   <div class="col">
     <nav class="navbar navbar-expand-lg navbar-light bg-light topNavbar">
       <div class="container-fluid">
-        <a class="nav-link" aria-current="page" href="/">
+        <a class="nav-link" aria-current="page" href="index.html">
           <img src="../assets/images/logo.svg" alt="" class="logo-img" />
         </a>
         <button
