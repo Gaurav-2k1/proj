@@ -11,7 +11,7 @@
     <Products />
     <ChooseTheBest />
     <HowItWorks />
-    <Video />
+    <!-- <Video /> -->
     <Printer />
     <Avtar />
     <FAQ />

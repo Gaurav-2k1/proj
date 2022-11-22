@@ -85,7 +85,7 @@ export default {
 .uploader-wrapper {
   width: 500px;
   height: 500px;
-  background-color: #d9d9d933;
+  background-color: #d9d9d9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +98,7 @@ export default {
   gap: 20px;
 }
 .list li {
-  background: rgba(217, 217, 217, 0.05);
+  background: rgb(217 217 217 / 57%);
   font-size: 20px;
   width: 446px;
   height: 60px;

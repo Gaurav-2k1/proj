@@ -31,12 +31,19 @@
             </li>
           </ul>
           <form class="d-flex NavrightSide">
-            <a
+            <!-- <a
               href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
               class="btn login-btn"
               target="_blank"
               type="submit"
               >Order Now</a
+            > -->
+            <!-- <nuxt-link to="/login" class="btn login-btn">Login</nuxt-link> -->
+            <nuxt-link
+              to="/checkout"
+              class="btn login-btn"
+              style="margin-left: 15px"
+              >Order Now</nuxt-link
             >
           </form>
         </div>

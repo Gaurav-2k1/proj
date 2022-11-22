@@ -1,4 +1,6 @@
 <template>
+  <Nav />
+
   <div class="login-container" id="container">
     <div class="form-container sign-up-container">
       <form action="#">
