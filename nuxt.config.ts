@@ -23,10 +23,10 @@ export default defineNuxtConfig({
   vite: {
     define: { "process.env.DEBUG": false },
   },
-  publicRuntimeConfig: {
-    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
-  },
-  privateRuntimeConfig: {
-    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
-  },
+  // publicRuntimeConfig: {
+  //   FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
+  // },
+  // privateRuntimeConfig: {
+  //   FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
+  // },
 });
