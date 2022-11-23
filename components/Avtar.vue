@@ -20,7 +20,7 @@
             Get your lifelike digital 3d avatar which can be used to create
             following application and more.
           </p>
-          <ul>
+          <ul style="margin-left: 50px">
             <li>Short VR videos</li>
             <li>Educational videos</li>
             <li>Customize Marketing content</li>

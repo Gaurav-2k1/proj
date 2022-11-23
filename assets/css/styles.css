@@ -302,6 +302,7 @@ body {
 
 .CaptureMoment h6 b {
   font-family: "Roboto";
+  font-weight: 400;
 }
 
 .cutomizeBtn {
@@ -880,6 +881,7 @@ button:focus:not {
 
 .minitureworld p b {
   font-family: "Roboto";
+  font-weight: 400;
 }
 
 .mainFooter {
