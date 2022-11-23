@@ -7,14 +7,17 @@
     </div>
     <Banner />
     <Row />
-    <Comparison />
-    <Products />
-    <ChooseTheBest />
+    <VideoTestimonial />
     <HowItWorks />
+    <Products />
+
+    <Comparison />
+    <ChooseTheBest />
     <!-- <Video /> -->
     <Printer />
     <Avtar />
     <FAQ />
+    <Review />
     <Contact />
     <div class="row minitureworld">
       <div class="col">

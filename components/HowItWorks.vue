@@ -3,7 +3,7 @@
     <div class="col">
       <div class="row">
         <div class="col">
-          <h3>How To Order</h3>
+          <h3>Simple Steps to Customize your 3D Figurine</h3>
         </div>
       </div>
       <div class="row">
