@@ -32,7 +32,7 @@
             </div>
             <div class="col-md-4 col-sm-12">
               <div class="card">
-                <div class="cardImg cardImgFive">
+                <div class="cardImg cardImgTwo">
                   <img
                     src="../assets/images/products/p2.png"
                     class="card-img-top"
