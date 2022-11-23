@@ -1109,6 +1109,7 @@ ul.socialIcon li a {
 
 .cutomizecardBtn:hover {
   background-color: #008080 !important;
+  box-shadow: 0 0 0 4px #0080804d;
 }
 
 .videoWidht iframe {
