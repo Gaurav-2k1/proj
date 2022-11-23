@@ -56,7 +56,7 @@
         </div>
         <div class="compareImg">
           <a href="javascript:" class="btn darkBtn">Ditto Dolls </a>
-          <div class="imgborder detailingImg">
+          <div class="imgborder">
             <img src="../assets/images/comparison/c4.png" class="img-fluid" />
           </div>
         </div>
