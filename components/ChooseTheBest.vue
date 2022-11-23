@@ -79,15 +79,6 @@
           </div>
         </li>
       </ul>
-      <div class="mobbtn-blk">
-        <a
-          href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
-          class="btn cutomizeBtn mobileBtn"
-          target="_blank"
-          >Customize Now
-          <!-- <img src="images/arrow-right.svg" alt="img" /> -->
-        </a>
-      </div>
     </div>
     <div class="col-1"></div>
   </div>

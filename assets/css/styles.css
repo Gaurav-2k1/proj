@@ -1448,6 +1448,7 @@ ul.socialIcon li a {
   }
   .navRow .nav-item .nav-link {
     font-size: 16px !important;
+    text-align: center;
   }
   .pinkBg {
     padding: 10px 30px;
@@ -1647,6 +1648,7 @@ ul.socialIcon li a {
   }
   .topNavbar .container-fluid {
     background: rgba(29, 62, 67) !important;
+    height: 70px;
   }
   .login-btn {
     margin-bottom: 50px;
