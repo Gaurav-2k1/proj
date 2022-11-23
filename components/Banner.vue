@@ -13,7 +13,7 @@
             class="btn cutomizeBtn"
             target="_blank"
             >Customize Now
-            <!-- <img src="images/arrow-right.svg" /> -->
+            <img src="../assets/images/arrow-right.svg" />
           </a>
         </div>
         <div class="col-md-5 col-sm-12">
