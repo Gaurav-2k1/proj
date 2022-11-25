@@ -302,6 +302,7 @@ body {
 
 .CaptureMoment h6 b {
   font-family: "Roboto";
+  font-weight: 400;
 }
 
 .cutomizeBtn {
@@ -319,7 +320,7 @@ body {
 }
 
 .navRow {
-  background: rgba(23, 49, 54) !important;
+  background: #c19a67 !important;
 }
 
 .nav-pills {
@@ -330,7 +331,7 @@ body {
   line-height: 75px;
   text-align: center;
   letter-spacing: 0.02em;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   color: #fdf9ea;
   height: 90px;
 }
@@ -666,7 +667,7 @@ body {
 .three-d-printed,
 .innerPage {
   text-align: center;
-  background: #fdf9ea;
+  background: #ffffff;
   margin: 0;
   padding-bottom: 80px;
 }
@@ -728,7 +729,7 @@ body {
   text-align: center;
   letter-spacing: 0.05em;
   color: #0d2131;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 
 .faq p {
@@ -761,7 +762,13 @@ body {
 }
 
 .faq {
-  background: #fdf9ea;
+  background: #ffffff;
+  text-align: center;
+  padding: 50px 100px;
+  margin: 0;
+}
+.review {
+  background: #ffffff;
   text-align: center;
   padding: 50px 100px;
   margin: 0;
@@ -862,7 +869,10 @@ button:focus:not {
 }
 
 .minitureworld {
-  background-color: #1d3e43;
+  background-color: #c19a67;
+  height: 82px;
+  display: flex;
+  align-items: center;
 }
 
 .minitureworld p {
@@ -881,6 +891,7 @@ button:focus:not {
 
 .minitureworld p b {
   font-family: "Roboto";
+  font-weight: 400;
 }
 
 .mainFooter {
@@ -969,7 +980,7 @@ ul.socialIcon li a {
 
 .videoBlk,
 .three-d-avatar {
-  background: #fff;
+  background: #fdf9ea;
   text-align: center;
   padding-bottom: 80px;
 }
@@ -1447,6 +1458,7 @@ ul.socialIcon li a {
   }
   .navRow .nav-item .nav-link {
     font-size: 16px !important;
+    text-align: center;
   }
   .pinkBg {
     padding: 10px 30px;
@@ -1646,6 +1658,7 @@ ul.socialIcon li a {
   }
   .topNavbar .container-fluid {
     background: rgba(29, 62, 67) !important;
+    height: 70px;
   }
   .login-btn {
     margin-bottom: 50px;

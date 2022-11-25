@@ -9,7 +9,7 @@
             You can customize a minitaure as per your thinking,<br />
             It can be anything without limitations
           </p>
-          <ul>
+          <ul style="margin-left: 50px">
             <li>Any animal</li>
             <li>Any 3d Abstract art</li>
             <li>Any scenery in 3d on miniature base</li>

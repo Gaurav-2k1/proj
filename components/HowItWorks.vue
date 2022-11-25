@@ -1,9 +1,9 @@
 <template>
-  <div class="row howitwork" id="howitwork">
+  <div class="row howitwork" id="HowToOrder">
     <div class="col">
       <div class="row">
         <div class="col">
-          <h3>How it Works</h3>
+          <h3>Simple Steps to Customize your 3D Figurine</h3>
         </div>
       </div>
       <div class="row">

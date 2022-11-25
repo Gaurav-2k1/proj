@@ -6,7 +6,7 @@
           <img src="../assets/images/logo.svg" alt="" class="logo-img" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler mobile-navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -56,4 +56,8 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+.mobile-navbar-toggler {
+  margin-top: -40px;
+}
+</style>

@@ -2,10 +2,7 @@
   <div>
     <div class="row pinkBg miniatureIntro" id="AboutUs">
       <div class="col">
-        <h3>
-          Introducing the Most High<br />
-          Resolution Miniature in the World
-        </h3>
+        <h3>Others VS DittoDolls</h3>
       </div>
     </div>
     <div class="row pinkBg blurryImg">

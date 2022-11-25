@@ -22,11 +22,7 @@
         <div class="col-md-2">
           <ul>
             <li>
-              <a
-                href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
-                target="_blank"
-                >How to Order</a
-              >
+              <a href="#HowToOrder">How to Order</a>
             </li>
             <li>
               <a href="refundpolicy.html" target="_blank">Refund Policy</a>

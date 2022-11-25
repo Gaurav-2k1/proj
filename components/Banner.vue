@@ -5,15 +5,15 @@
         <div class="col-1"></div>
         <div class="col-md-5 col-sm-12 ShowSecond topHeading">
           <h6>
-            A Few Simple <br />Steps to <b>Capture</b> <br />
-            Any <b>Moment</b> in 3D
+            Get a 3D Figurine <br />to <b>Preserve</b> your <br />Precious
+            <b>Moment</b>
           </h6>
           <a
             href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
             class="btn cutomizeBtn"
             target="_blank"
             >Customize Now
-            <!-- <img src="images/arrow-right.svg" /> -->
+            <img src="../assets/images/arrow-right.svg" />
           </a>
         </div>
         <div class="col-md-5 col-sm-12">

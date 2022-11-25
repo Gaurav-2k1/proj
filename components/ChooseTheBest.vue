@@ -6,10 +6,10 @@
       <p>If you have Choices, Choose the Best</p>
       <a
         href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
-        class="btn cutomizeBtn desktopBtn"
+        class="btn cutomizeBtn"
         target="_blank"
         >Customize Now
-        <!-- <img src="images/arrow-right.svg" alt="img" /> -->
+        <img src="../assets/images/arrow-right.svg" />
       </a>
     </div>
     <div class="col-md-5 col-sm-12">
@@ -18,7 +18,7 @@
           class="list-group-item d-flex justify-content-between align-items-start"
         >
           <div class="iconImg">
-            <!-- <img src="images/highdefinationnew.svg" alt="img" /> -->
+            <img src="../assets/images/highdefinationnew.svg" alt="img" />
           </div>
           <div class="ms-2 me-auto">
             <h5>High Defination 3D Miniature</h5>
@@ -32,11 +32,11 @@
           class="list-group-item d-flex justify-content-between align-items-start"
         >
           <div class="iconImg">
-            <!-- <img
-                src="images/accuracynew.svg"
-                class="accuracy iconImgchngsize"
-                alt="img"
-              /> -->
+            <img
+              src="../assets/images/accuracynew.svg"
+              class="accuracy iconImgchngsize"
+              alt="img"
+            />
           </div>
           <div class="ms-2 me-auto">
             <h5>99% Accuracy</h5>
@@ -50,7 +50,7 @@
           class="list-group-item d-flex justify-content-between align-items-start"
         >
           <div class="iconImg">
-            <!-- <img src="images/threedfilenew.svg" alt="img" /> -->
+            <img src="../assets/images/threedfilenew.svg" alt="img" />
           </div>
           <div class="ms-2 me-auto">
             <h5>unlimited Revisions in 3D file</h5>
@@ -64,11 +64,11 @@
           class="list-group-item d-flex justify-content-between align-items-start"
         >
           <div class="iconImg">
-            <!-- <img
-                src="images/customizationnew.svg"
-                class="iconImgchngsize"
-                alt="img"
-              /> -->
+            <img
+              src="../assets/images/customizationnew.svg"
+              class="iconImgchngsize"
+              alt="img"
+            />
           </div>
           <div class="ms-2 me-auto">
             <h5>Customization available</h5>
@@ -79,15 +79,6 @@
           </div>
         </li>
       </ul>
-      <div class="mobbtn-blk">
-        <a
-          href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
-          class="btn cutomizeBtn mobileBtn"
-          target="_blank"
-          >Customize Now
-          <!-- <img src="images/arrow-right.svg" alt="img" /> -->
-        </a>
-      </div>
     </div>
     <div class="col-1"></div>
   </div>

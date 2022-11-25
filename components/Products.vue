@@ -3,7 +3,7 @@
     <div class="col">
       <div class="row">
         <div class="col">
-          <h3>OUR PRODUCTS</h3>
+          <h3>Best Selling Products</h3>
         </div>
       </div>
       <div class="row">
