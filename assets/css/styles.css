@@ -870,7 +870,7 @@ button:focus:not {
 
 .minitureworld {
   background-color: #c19a67;
-  height: 82px;
+  height: auto;
   display: flex;
   align-items: center;
 }
