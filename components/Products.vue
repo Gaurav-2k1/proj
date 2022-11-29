@@ -22,9 +22,8 @@
                 <div class="card-body">
                   <h5 class="card-title">Single</h5>
                   <a
-                    href="https://wa.me/+918700101645?text=hello I'm interested in buying your miniatures kindly guide me the order instructions…"
+                    href="/checkout"
                     class="btn cutomizecardBtn"
-                    target="_blank"
                     >Customize Now
                   </a>
                 </div>

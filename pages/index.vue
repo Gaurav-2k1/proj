@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-1"></div>
-      <Nav />
+      <Nav/>
       <div class="col-1"></div>
     </div>
     <Banner />
@@ -31,7 +31,10 @@
 </template>
 
 <script>
+
 export default {
+  
+  
   head: {
     title: "Ditto Dolls",
     meta: [
@@ -47,7 +50,7 @@ export default {
   },
 };
 </script>
-
+ 
 <style>
 @import "assets/css/styles.css";
 </style>
