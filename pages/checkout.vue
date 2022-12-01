@@ -194,7 +194,7 @@ export default {
     },
     onpress() {
       // this.show= true
-      this.$router.push({ name: 'Payment', params: { total: this.total } })
+      this.$router.push('/payment')
 
 
     },
