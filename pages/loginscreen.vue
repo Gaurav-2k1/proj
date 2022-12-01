@@ -13,16 +13,16 @@
                     <input type="password" v-model="password" class="form-control p-2" id="exampleInputPassword1"
                         placeholder="Password">
                 </div>
-                <span class="forget my-3">
+                <button class="forget my-3" @click="forget">
                     Forget Password ?
-                </span>
+                </button>
                 <button type="button" @click="signIn" class="sign">
                     Sign In
                 </button>
                 <button type="button" @click="login" class="google">
                     Sign in With Google
                 </button>
-                <nuxt-link to="/signUp"  class="" style="margin-left: 15px">Don't have a account?
+                <nuxt-link to="/signUp" class="" style="margin-left: 15px">Don't have a account?
                 </nuxt-link>
             </form>
         </div>
@@ -30,8 +30,10 @@
 </template>
 <script>
 
-import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
+import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, sendPasswordResetEmail } from "firebase/auth";
 import * as firebase from 'firebase/app';
+import { addDoc, doc, getFirestore, getDoc, where, setDoc } from "@firebase/firestore";
+
 const firebaseConfig = {
     apiKey: "AIzaSyDJ7cVeohUlWMegCAWEF5MXj-ESR78T1y0",
     authDomain: "ditto-dolls.firebaseapp.com",
@@ -41,6 +43,7 @@ const firebaseConfig = {
     appId: "1:501056572331:web:651a09c4ca901eee46a0ee",
     measurementId: "G-85LHP742X0"
 };
+const db = getFirestore();
 firebase.initializeApp(firebaseConfig);
 const provider = new GoogleAuthProvider();
 export default {
@@ -49,10 +52,53 @@ export default {
         password: ""
     }),
     methods: {
+        forget() {
+            sendPasswordResetEmail(getAuth(), this.email)
+                .then(() => {
+                    // Password reset email sent!
+                    // ..
+                    console.log("send");
+                    alert("Reset link send !");
+                    this.email = "";
+                    this.password = "";
+                    this.$router.push('/');
 
+                })
+                .catch((error) => {
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
+                    // ..
+                });
+        },
         login() {
-            signInWithPopup(getAuth(), provider).then((results) => {
+            signInWithPopup(getAuth(), provider).then(async (results) => {
                 console.log(results);
+                let uid = results.user.uid;
+                console.log(uid);
+                let docref = doc(db, "users", uid);
+                const docSnap = await getDoc(docref);
+                // console.log(docSnap);
+                if (docSnap.exists()) {
+                    const data = {
+                        name: results.user.displayName,
+                        address: "",
+                        email: results.user.email,
+                        phoneNumber: results.user.phoneNumber
+                    }
+                    await setDoc(docref, data);
+                    console.log("Exist");
+                } else {
+                    // doc.data() will be undefined in this case
+                    const data = {
+                        name: results.user.displayName,
+                        address: "",
+                        email: results.user.displayName,
+                        phoneNumber: results.user.phoneNumber
+                    }
+                    await setDoc(docref, data);
+                    console.log("created");
+
+                }
                 this.$router.push('/')
 
             })

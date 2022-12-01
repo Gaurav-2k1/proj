@@ -6,7 +6,7 @@
             <span class="formtext my-3">Hello New User,Please enter your details.</span>
             <form @submit.prevent="pressed">
                 <div class="mb-3 forminput  p-2 rounded-3">
-                    <input type="name" v-model="name" class="form-control" id="exampleInputEmail1"
+                    <input type="name" v-model="displayName" class="form-control" id="exampleInputEmail1"
                         aria-describedby="emailHelp" placeholder="Name">
                 </div>
 
@@ -15,7 +15,7 @@
                         aria-describedby="emailHelp" placeholder="Email">
                 </div>
                 <div class="mb-3 forminput p-2 rounded-3">
-                    <input type="number" v-model="phone" class="form-control" id="exampleInputEmail1"
+                    <input type="number" v-model="phoneNumber" class="form-control" id="exampleInputEmail1"
                         aria-describedby="emailHelp" placeholder="Phone Number">
                 </div>
                 <div class="mb-3 forminput p-2 rounded-3">
@@ -27,7 +27,7 @@
                 <button type="button" @click="createUser" class="sign">
                     Create Account
                 </button>
-               
+
                 <nuxt-link to="/loginscreen" class="" style="margin-left: 15px">Already have an account ? Sign In
                 </nuxt-link>
             </form>
@@ -40,6 +40,7 @@
 <script>
 import { getAuth, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPassword } from "firebase/auth";
 import * as firebase from 'firebase/app';
+import { doc, getFirestore, getDoc, where, setDoc } from "@firebase/firestore";
 const firebaseConfig = {
     apiKey: "AIzaSyDJ7cVeohUlWMegCAWEF5MXj-ESR78T1y0",
     authDomain: "ditto-dolls.firebaseapp.com",
@@ -51,22 +52,32 @@ const firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 const provider = new GoogleAuthProvider();
+const db = getFirestore();
 
 export default {
     data: () => ({
+        displayName: "",
+        phoneNumber: "",
         email: "",
         password: ""
     }),
     methods: {
 
         login() {
-            signInWithPopup(getAuth(), provider).then((results) => {
+            signInWithPopup(getAuth(), provider).then(async (results) => {
                 console.log(results);
-                this.$router.push('/')
+                let uid = results.user.uid;
+                console.log(uid);
 
+                this.$router.push('/');
+
+
+            }).then((user) => {
+                console.log(user);
+                // const docref = doc(db,"")
             })
         },
-        
+
         createUser() {
             console.log("strted");
             console.log(this.email)
@@ -74,7 +85,35 @@ export default {
                 createUserWithEmailAndPassword(getAuth(),
                     this.email,
                     this.password
-                );
+                ).then(async (results) => {
+                    console.log(results);
+                    let uid = results.user.uid;
+
+                    let docref = doc(db, "users", uid);
+                    const docSnap = await getDoc(docref);
+                    // console.log(docSnap);
+                    if (docSnap.exists()) {
+                        const data = {
+                            name: results.user.displayName,
+                            address: "",
+                            email: results.user.email,
+                            phoneNumber: results.user.phoneNumber
+                        }
+                        await setDoc(docref, data);
+                        console.log("Exist");
+                    } else {
+                        // doc.data() will be undefined in this case
+                        const data = {
+                            name: this.displayName,
+                            address: "",
+                            email: this.email,
+                            phoneNumber: this.phoneNumber
+                        }
+                        await setDoc(docref, data);
+                        console.log("created");
+
+                    }
+                });
                 this.$router.push('/')
             } catch (e) {
                 handleError(e)

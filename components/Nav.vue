@@ -37,8 +37,13 @@
 
             <nuxt-link v-if="!username" to="/loginscreen" class="btn login-btn" style="margin-left: 15px">Login
             </nuxt-link>
+            <div v-else class="logincomp">
+              <button class="btn login-btn mx-2" @click="signoutfn">Log out
+              </button>
+              <img :src="img" alt="" class="profile" />
+              <span>{{ username }}</span>
+            </div>
 
-            <button v-else class="btn login-btn mx-2" @click="signoutfn">Log out</button>
 
           </form>
           <p></p>
@@ -52,6 +57,7 @@
 <script>
 
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
+
 import * as firebase from 'firebase/app';
 const firebaseConfig = {
   apiKey: "AIzaSyDJ7cVeohUlWMegCAWEF5MXj-ESR78T1y0",
@@ -71,7 +77,8 @@ export default {
     return {
 
       username: null,
-      name: ''
+      name: '',
+      img: ""
     }
   },
   methods: {
@@ -82,19 +89,16 @@ export default {
     },
   },
 
-  // computed: {
-  //   currentUser() {
-  //     return this.$store.state.user;
-  //   },
-  // },
+
   mounted() {
     onAuthStateChanged(getAuth(), (user) => {
       if (user) {
         // User is signed in, see docs for a list of available properties
         // https://firebase.google.com/docs/reference/js/firebase.User
-        const uid = user;
-        this.username = uid;
-        return this.username;
+        this.username = user.displayName;
+        this.img = user.photoURL;
+        console.log(this.img)
+
         // ...
       } else {
         // User is signed out
@@ -108,5 +112,24 @@ export default {
 <style scoped>
 .mobile-navbar-toggler {
   margin-top: -40px;
+}
+
+.logincomp {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  color: #d3a466;
+}
+
+.logincomp span {
+  margin-top: 5px;
+}
+
+.profile {
+  padding: 10px;
+  width: 20%;
+  object-fit: contain;
+  border-radius: 50%;
 }
 </style>
