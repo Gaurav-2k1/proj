@@ -79,20 +79,14 @@ export default {
                 const docSnap = await getDoc(docref);
                 // console.log(docSnap);
                 if (docSnap.exists()) {
-                    const data = {
-                        name: results.user.displayName,
-                        address: "",
-                        email: results.user.email,
-                        phoneNumber: results.user.phoneNumber
-                    }
-                    await setDoc(docref, data);
+                    
                     console.log("Exist");
                 } else {
                     // doc.data() will be undefined in this case
                     const data = {
                         name: results.user.displayName,
                         address: "",
-                        email: results.user.displayName,
+                        email: results.user.email,
                         phoneNumber: results.user.phoneNumber
                     }
                     await setDoc(docref, data);

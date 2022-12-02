@@ -1,74 +1,71 @@
 <template>
-  <div>
-    <div class="nav-bar" style="margin-bottom: 200px">
-      <Nav />
-    </div>
-    <div class="main-body" v-if="!show">
-      <div class="checkout-wrapper">
-        <div class="left-side">
-          <div class="uploader-wrapper">
-            <h2 class="heading" v-if="!image">Uploader</h2>
-            <div class="imagePreviewWrapper" v-else :style="{ 'background-image': `url(${image})` }">
 
-            </div>
-            <!-- <div class="imagePreviewWrapper" :style="{ 'background-image': `url(${image})` }">
+  <Nav />
+  <div class="main-body" v-if="!show">
+    <div class="checkout-wrapper">
+      <div class="left-side">
+        <div class="uploader-wrapper">
+          <h2 class="heading" v-if="!image">Uploader</h2>
+          <div class="imagePreviewWrapper" v-else :style="{ 'background-image': `url(${image})` }">
+
+          </div>
+          <!-- <div class="imagePreviewWrapper" :style="{ 'background-image': `url(${image})` }">
             </div> -->
-            <input type="file" accept="image/*" @change="onFileChange($event)" ref="fileInput" />
+          <input type="file" accept="image/*" @change="onFileChange($event)" ref="fileInput" />
 
-            <!-- <input ref="fileInput" type="file" @input="pickFile"> -->
-            <button @click="uploadimage">upload</button>
-          </div>
-
-        </div>
-        <div class="right-side">
-          <div class="details">
-            <div>
-              <ul class="list">
-                <li class="d-flex justify-content-between">
-                  Number of Peoples
-                  <input type="number" v-model="people" min="0" />
-                </li>
-                <li class="d-flex justify-content-between">Number of Baby
-                  <input type="number" v-model="Baby" min="0" />
-                </li>
-                <li class="d-flex justify-content-between">Number of Pets
-                  <input type="number" v-model="Pets" min="0" />
-                </li>
-                <li>Upload Supporting Images</li>
-                <li class="info">
-                  Upload front facing images of members whose faces are not
-                  clearly visible
-                </li>
-                <input type="file" accept="image/*" @change="pickFile2($event)" ref="imageInput" />
-                <li class="info">
-                  Upload back side design, tattoo, accessories, any other
-                  details
-                </li>
-                <input type="file" accept="image/*" @change="pickFile3($event)" ref="imageInput" />
-              </ul>
-            </div>
-          </div>
-          <div class="processbutton">
-
-            <button v-if="!total" type="button" @click="uploadimage">Add to Cart</button>
-            <div v-else>
-              <span>
-                $ {{ total }}
-              </span>
-              <!-- <nuxt-link :to="{ name: 'Checkout-Payment', params: { userId: 123 } }"> Continue ➡️</nuxt-link> -->
-
-              <button type="button" @click="onpress">
-                Continue
-              </button>
-            </div>
-
-          </div>
+          <!-- <input ref="fileInput" type="file" @input="pickFile"> -->
         </div>
 
       </div>
+      <div class="right-side">
+        <div class="details">
+          <div>
+            <ul class="list">
+              <li class="d-flex justify-content-between">
+                Number of Peoples
+                <input type="number" v-model="people" min="0" />
+              </li>
+              <li class="d-flex justify-content-between">Number of Baby
+                <input type="number" v-model="Baby" min="0" />
+              </li>
+              <li class="d-flex justify-content-between">Number of Pets
+                <input type="number" v-model="Pets" min="0" />
+              </li>
+              <li>Upload Supporting Images</li>
+              <li class="info">
+                Upload front facing images of members whose faces are not
+                clearly visible
+              </li>
+              <input type="file" accept="image/*" @change="pickFile2($event)" ref="imageInput" />
+              <li class="info">
+                Upload back side design, tattoo, accessories, any other
+                details
+              </li>
+              <input type="file" accept="image/*" @change="pickFile3($event)" ref="imageInput" />
+            </ul>
+          </div>
+        </div>
+        <div class="processbutton">
+
+          <button v-if="!total" type="button" @click="uploadimage">Add to Cart</button>
+          <div v-else>
+            <span>
+              $ {{ total }}
+            </span>
+            <!-- <nuxt-link :to="{ name: 'Checkout-Payment', params: { userId: 123 } }"> Continue ➡️</nuxt-link> -->
+
+            <button type="button" @click="onpress">
+              Continue
+            </button>
+          </div>
+
+        </div>
+      </div>
 
     </div>
+
   </div>
+
   <!-- <Footer /> -->
 </template>
 
@@ -113,7 +110,7 @@ export default {
     async uploadOrders() {
       const uid = getAuth().currentUser.uid;
 
-      let docref = doc(db, "orders",uid);
+      let docref = doc(db, "orders", uid);
       const data = {
         peoples: this.people,
         baby: this.Baby,
@@ -240,9 +237,8 @@ export default {
 
 <style scoped>
 .main-body {
-  margin: 0 auto;
-  /* background: aliceblue;
-  padding: 40px 40px; */
+  margin-top: 10%;
+  
 }
 
 .checkout-wrapper {

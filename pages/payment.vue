@@ -12,11 +12,14 @@
                 <span class="carddetail" v-if="address">
                     {{ address }}
                 </span>
-                <span class="carddetail" v-else>
-                    No address ,Please enter your address!
-                    <form @submit.prevent="pressed">
+                <span class="addaddress" v-else>
+                    <p class="add">
+                        No address ,Please enter your address!
+
+                    </p>
+                    <form @submit.prevent="pressed" class="addressform">
                         <input type="text" v-model="setaddress" placeholder="Add address" />
-                        <button @click="submitaddress">Add</button>
+                        <button class="buttonaddress" @click="submitaddress">Add</button>
                     </form>
 
                 </span>
@@ -72,8 +75,8 @@ export default {
         });
     },
     methods: {
-        press() { 
-            
+        press() {
+
         },
         createOrder: function (data, actions) {
             console.log('Creating order...');
@@ -202,7 +205,42 @@ const CLIENT_ID = 'ASnj0tx7P9TgXwc5I0aWvO_dsA6VvmZYgMNEmfej3h0p3Gr_AVOYUinz4CasL
     font-size: 21px;
     line-height: 1.5;
     /* or 16px */
+}
 
+.addaddress {
+    padding: 2% 10%;
+    width: 100%;
+    height: 10rem;
+
+}
+
+.add {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+.addressform {
+    display: flex;
+    height: 30%;
+}
+.addressform input{
+    display: flex;
+    width: 80%;
+    padding-left: 1rem;
+    outline: none;
+    border-radius: 10px;
+}
+.buttonaddress{
+    margin-left: 10px;
+    width: 30%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(6, 100, 6);
+    color: white;
+    border: 1px white ;
 }
 </style>
   
